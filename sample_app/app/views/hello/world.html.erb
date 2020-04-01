@@ -1,4 +1,4 @@
 <%names=["alex","yunus","fulya"] %>
 <h1>Hello#<%=names.sample%></h1>
-<h2>Time now is %=farmatted_time(@time)%>
-<This page has been viewed <%=@times_displayed% time(s)>
+<h2>Time now is <%= formatted_time(@time) %> </h2>
+<p>This page has been viewed <%=@displayed_times%></p>
